@@ -43,7 +43,6 @@ public class HttpProxyConfigReaderTest {
                         + "\n  type: SOCKS"
                         + "\n  urls:"
                         + "\n  - 10.2.2.2"
-                        + "\n  - gate.payneteasy.com"
         );
         out.close();
     }

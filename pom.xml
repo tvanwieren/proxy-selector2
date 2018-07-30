@@ -46,6 +46,19 @@
       -->
     <distributionManagement>
 
+        <repository>
+            <id>file-release</id>
+            <name>Release to local fs</name>
+            <url>file:///tmp/proxy-selector-release-${project.version}</url>
+        </repository>
+
+        <snapshotRepository>
+            <id>file-snapshot</id>
+            <name>Make a snapshot to local fs</name>
+            <uniqueVersion>false</uniqueVersion>
+            <url>file:///tmp/proxy-selector-snapshot-${project.version}</url>
+        </snapshotRepository>
+
         <site>
             <id>local-site</id>
             <name>Store only on local disk</name>
