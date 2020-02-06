@@ -15,6 +15,7 @@
     <modules>
         <module>selector</module>
         <module>integration-testing</module>
+        <module>check-app</module>
     </modules>
 
     <properties>
