@@ -4,7 +4,17 @@
     "owner": "tester"
   },
   "detail": {
-    "contributors": [],
-    "diagrams": []
+    "contributors": [
+      {
+        "name": "gtester"
+      }
+    ],
+    "diagrams": [
+      {
+        "title": "test diagram",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
   }
 }
