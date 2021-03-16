@@ -1,20 +1,18 @@
 {
   "summary": {
     "title": "Test",
-    "owner": "tester"
+    "owner": "tester",
+    "description": "rer"
   },
   "detail": {
-    "contributors": [
-      {
-        "name": "gtester"
-      }
-    ],
+    "contributors": [],
     "diagrams": [
       {
-        "title": "test diagram",
+        "title": "testterteer er",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0
       }
-    ]
+    ],
+    "reviewer": "afdf"
   }
 }
